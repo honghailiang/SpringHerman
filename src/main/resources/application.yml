@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: @profileActive@
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.herman.springherman.model
+
